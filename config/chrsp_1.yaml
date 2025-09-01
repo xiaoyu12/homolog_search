@@ -1,0 +1,13 @@
+locations:
+  input-dir: "."
+  output-dir: "output"
+  genome-fasta: "Chrsp_1/Chrsp_1_AssemblyScaffolds.fasta"
+  gff3-file: "Chrsp_1/Chrsp_1_GeneCatalog_20180813.gff3"
+  proteins-fasta: "elongases.fasta"
+  blast-output: "elongases_vs_Chrsp_1.tsv"
+
+general:
+  species: "Chrysochromulina tobin"
+  species-short: "Chrsp_1"
+  evalue: 1e-5
+  max-target-seqs: 10

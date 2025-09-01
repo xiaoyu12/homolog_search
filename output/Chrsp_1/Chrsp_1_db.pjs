@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Chrsp_1_db",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "output/Chrsp_1/Chrsp_1_proteins.fasta",
+  "number-of-letters": 7798509,
+  "number-of-sequences": 16770,
+  "last-updated": "2025-09-01T15:39:00",
+  "number-of-volumes": 1,
+  "bytes-total": 9780698,
+  "bytes-to-cache": 7949560,
+  "files": [
+    "Chrsp_1_db.pdb",
+    "Chrsp_1_db.phr",
+    "Chrsp_1_db.pin",
+    "Chrsp_1_db.pot",
+    "Chrsp_1_db.psq",
+    "Chrsp_1_db.ptf",
+    "Chrsp_1_db.pto"
+  ]
+}
