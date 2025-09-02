@@ -1,0 +1,9 @@
+	total_queries	queries_with_hits	queries_no_hits	high_significance	medium_significance	low_significance	very_low_significance	not_found	avg_identity	avg_evalue	avg_bitscore
+Ochro3194_1	1.0	1.0	0.0	1.0	0.0	0.0	0.0	0.0	80.537	0.0	602.0
+Chrpa1_1	1.0	0.0	1.0	0.0	0.0	0.0	0.0	1.0			
+Gepoce1	1.0	1.0	0.0	1.0	0.0	0.0	0.0	0.0	78.5	0.0	509.0
+IsochDm2_1	1.0	1.0	0.0	0.0	0.0	1.0	0.0	0.0	44.526	5.31e-86	267.0
+Chrsp_1	1.0	0.0	1.0	0.0	0.0	0.0	0.0	1.0			
+Phaglo1	1.0	1.0	0.0	0.0	0.0	1.0	0.0	0.0	31.646	3.52e-06	48.9
+Pparv12B1_1_1	1.0	0.0	1.0	0.0	0.0	0.0	0.0	1.0			
+Isogal1	1.0	1.0	0.0	0.0	0.0	1.0	0.0	0.0	48.649	1.05e-85	266.0

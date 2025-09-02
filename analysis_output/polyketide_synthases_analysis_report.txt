@@ -1,0 +1,45 @@
+
+================================================================================
+COMPREHENSIVE ANALYSIS REPORT FOR POLYKETIDE_SYNTHASES.FASTA
+================================================================================
+
+OVERALL STATISTICS:
+  Total genomes analyzed: 8
+  Total queries: 16
+  Total hits found: 13
+  Hit rate: 81.2%
+
+SIGNIFICANCE BREAKDOWN:
+  HIGH (likely orthologs): 2
+  MEDIUM (likely homologs): 4
+  LOW (possible homologs): 7
+  VERY LOW: 1
+  NOT FOUND: 3
+
+PER-GENOME BREAKDOWN:
+Genome               Queries    Hits     High     Med      Low     
+----------------------------------------------------------------------
+Ochro3194_1          2          2        1        1        0       
+Chrpa1_1             2          1        0        0        1       
+Gepoce1              2          2        1        0        1       
+IsochDm2_1           2          2        0        1        1       
+Chrsp_1              2          1        0        0        1       
+Phaglo1              2          1        0        0        1       
+Pparv12B1_1_1        2          2        0        0        2       
+Isogal1              2          2        0        2        0       
+
+TOP HITS ANALYSIS:
+
+Top 5 hits by identity:
+  452783 → 781838.0 (Ochro3194_1): 98.4% identity, E-value: 2.89e-120
+  452783 → 378747.0 (Gepoce1): 98.3% identity, E-value: 3.26e-112
+  455269 → 781838.0 (Ochro3194_1): 97.3% identity, E-value: 0.00e+00
+  455269 → 378747.0 (Gepoce1): 92.5% identity, E-value: 0.00e+00
+  452783 → 80667.0 (Isogal1): 66.1% identity, E-value: 4.67e-79
+
+Top 5 hits by E-value:
+  455269 → 781838.0 (Ochro3194_1): E-value: 0.00e+00, 97.3% identity
+  455269 → 378747.0 (Gepoce1): E-value: 0.00e+00, 92.5% identity
+  455269 → 1457521.0 (IsochDm2_1): E-value: 0.00e+00, 48.8% identity
+  455269 → 80667.0 (Isogal1): E-value: 0.00e+00, 58.2% identity
+  455269 → 31749.0 (Phaglo1): E-value: 2.48e-120, 41.7% identity

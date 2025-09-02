@@ -1,0 +1,45 @@
+
+================================================================================
+COMPREHENSIVE ANALYSIS REPORT FOR DECARBOXYLASES.FASTA
+================================================================================
+
+OVERALL STATISTICS:
+  Total genomes analyzed: 8
+  Total queries: 8
+  Total hits found: 5
+  Hit rate: 62.5%
+
+SIGNIFICANCE BREAKDOWN:
+  HIGH (likely orthologs): 2
+  MEDIUM (likely homologs): 0
+  LOW (possible homologs): 3
+  VERY LOW: 0
+  NOT FOUND: 3
+
+PER-GENOME BREAKDOWN:
+Genome               Queries    Hits     High     Med      Low     
+----------------------------------------------------------------------
+Ochro3194_1          1          1        1        0        0       
+Chrpa1_1             1          0        0        0        0       
+Gepoce1              1          1        1        0        0       
+IsochDm2_1           1          1        0        0        1       
+Chrsp_1              1          0        0        0        0       
+Phaglo1              1          1        0        0        1       
+Pparv12B1_1_1        1          0        0        0        0       
+Isogal1              1          1        0        0        1       
+
+TOP HITS ANALYSIS:
+
+Top 5 hits by identity:
+  97873 → 3975397.0 (Ochro3194_1): 80.5% identity, E-value: 0.00e+00
+  97873 → 381750.0 (Gepoce1): 78.5% identity, E-value: 0.00e+00
+  97873 → 79338.0 (Isogal1): 48.6% identity, E-value: 1.05e-85
+  97873 → 1214709.0 (IsochDm2_1): 44.5% identity, E-value: 5.31e-86
+  97873 → 30119.0 (Phaglo1): 31.6% identity, E-value: 3.52e-06
+
+Top 5 hits by E-value:
+  97873 → 3975397.0 (Ochro3194_1): E-value: 0.00e+00, 80.5% identity
+  97873 → 381750.0 (Gepoce1): E-value: 0.00e+00, 78.5% identity
+  97873 → 1214709.0 (IsochDm2_1): E-value: 5.31e-86, 44.5% identity
+  97873 → 79338.0 (Isogal1): E-value: 1.05e-85, 48.6% identity
+  97873 → 30119.0 (Phaglo1): E-value: 3.52e-06, 31.6% identity

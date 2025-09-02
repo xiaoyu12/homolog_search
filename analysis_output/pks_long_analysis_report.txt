@@ -1,0 +1,45 @@
+
+================================================================================
+COMPREHENSIVE ANALYSIS REPORT FOR PKS_LONG.FASTA
+================================================================================
+
+OVERALL STATISTICS:
+  Total genomes analyzed: 8
+  Total queries: 88
+  Total hits found: 88
+  Hit rate: 100.0%
+
+SIGNIFICANCE BREAKDOWN:
+  HIGH (likely orthologs): 24
+  MEDIUM (likely homologs): 11
+  LOW (possible homologs): 53
+  VERY LOW: 14
+  NOT FOUND: 0
+
+PER-GENOME BREAKDOWN:
+Genome               Queries    Hits     High     Med      Low     
+----------------------------------------------------------------------
+Ochro3194_1          11         11       8        3        0       
+Chrpa1_1             11         11       0        0        11      
+Gepoce1              11         11       6        4        1       
+IsochDm2_1           11         11       4        2        5       
+Chrsp_1              11         11       0        0        11      
+Phaglo1              11         11       1        0        10      
+Pparv12B1_1_1        11         11       1        0        10      
+Isogal1              11         11       4        2        5       
+
+TOP HITS ANALYSIS:
+
+Top 5 hits by identity:
+  631879 → 924779 (Ochro3194_1): 98.0% identity, E-value: 0.00e+00
+  631892 → 3320429 (Ochro3194_1): 96.5% identity, E-value: 0.00e+00
+  631889 → 394838 (Gepoce1): 96.3% identity, E-value: 0.00e+00
+  632072 → 3310508 (Ochro3194_1): 96.3% identity, E-value: 0.00e+00
+  632047 → 3980767 (Ochro3194_1): 96.2% identity, E-value: 0.00e+00
+
+Top 5 hits by E-value:
+  631879 → 924779 (Ochro3194_1): E-value: 0.00e+00, 98.0% identity
+  631889 → 3320429 (Ochro3194_1): E-value: 0.00e+00, 91.5% identity
+  631892 → 3320429 (Ochro3194_1): E-value: 0.00e+00, 96.5% identity
+  632047 → 3980767 (Ochro3194_1): E-value: 0.00e+00, 96.2% identity
+  632054 → 4994359 (Ochro3194_1): E-value: 0.00e+00, 80.7% identity

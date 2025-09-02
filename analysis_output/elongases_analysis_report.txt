@@ -1,0 +1,45 @@
+
+================================================================================
+COMPREHENSIVE ANALYSIS REPORT FOR ELONGASES.FASTA
+================================================================================
+
+OVERALL STATISTICS:
+  Total genomes analyzed: 8
+  Total queries: 16
+  Total hits found: 16
+  Hit rate: 100.0%
+
+SIGNIFICANCE BREAKDOWN:
+  HIGH (likely orthologs): 6
+  MEDIUM (likely homologs): 2
+  LOW (possible homologs): 8
+  VERY LOW: 0
+  NOT FOUND: 0
+
+PER-GENOME BREAKDOWN:
+Genome               Queries    Hits     High     Med      Low     
+----------------------------------------------------------------------
+Ochro3194_1          2          2        2        0        0       
+Chrpa1_1             2          2        0        0        2       
+Gepoce1              2          2        2        0        0       
+IsochDm2_1           2          2        1        1        0       
+Chrsp_1              2          2        0        0        2       
+Phaglo1              2          2        0        0        2       
+Pparv12B1_1_1        2          2        0        0        2       
+Isogal1              2          2        1        1        0       
+
+TOP HITS ANALYSIS:
+
+Top 5 hits by identity:
+  414244 → 376897 (Gepoce1): 100.0% identity, E-value: 7.76e-99
+  351492 → 3977047 (Ochro3194_1): 99.6% identity, E-value: 0.00e+00
+  351492 → 390416 (Gepoce1): 99.6% identity, E-value: 0.00e+00
+  414244 → 3826524 (Ochro3194_1): 98.8% identity, E-value: 3.19e-116
+  351492 → 1373135 (IsochDm2_1): 83.8% identity, E-value: 2.33e-170
+
+Top 5 hits by E-value:
+  351492 → 3977047 (Ochro3194_1): E-value: 0.00e+00, 99.6% identity
+  351492 → 390416 (Gepoce1): E-value: 0.00e+00, 99.6% identity
+  351492 → 76576 (Isogal1): E-value: 1.15e-170, 83.8% identity
+  351492 → 1373135 (IsochDm2_1): E-value: 2.33e-170, 83.8% identity
+  414244 → 3826524 (Ochro3194_1): E-value: 3.19e-116, 98.8% identity

@@ -1,0 +1,26 @@
+
+COMPREHENSIVE ANALYSIS SUMMARY
+==============================
+
+Analysis completed for 5 protein families across 8 genomes.
+
+PROTEIN FAMILY OVERVIEW:
+      Protein_Family  Total_Queries  Total_Hits  Hit_Rate_%  HIGH_Orthologs  MEDIUM_Homologs  LOW_Possible  VERY_LOW  NOT_FOUND  Avg_Identity_%
+        hydroxylases           48.0        34.0        70.8            19.0              1.0          14.0       8.0       14.0            47.5
+            pks_long           88.0        88.0       100.0            24.0             11.0          53.0      14.0        0.0            54.6
+      decarboxylases            8.0         5.0        62.5             2.0              0.0           3.0       0.0        3.0            56.8
+polyketide_synthases           16.0        13.0        81.2             2.0              4.0           7.0       1.0        3.0            59.1
+           elongases           16.0        16.0       100.0             6.0              2.0           8.0       0.0        0.0            61.0
+
+GENOME PERFORMANCE OVERVIEW:
+               Total_Queries  Total_Hits  HIGH_Orthologs  MEDIUM_Homologs  LOW_Possible  VERY_LOW  NOT_FOUND  Avg_Identity_%  Proteins_Analyzed  Hit_Rate_%
+Chrpa1_1                22.0        16.0             0.0              0.0          16.0       4.0        6.0            34.8                5.0        72.7
+Chrsp_1                 22.0        16.0             0.0              0.0          16.0      11.0        6.0            40.1                5.0        72.7
+Gepoce1                 22.0        22.0            15.0              4.0           3.0       0.0        0.0            84.7                5.0       100.0
+IsochDm2_1              22.0        22.0             9.0              5.0           8.0       1.0        0.0            55.4                5.0       100.0
+Isogal1                 22.0        22.0            10.0              5.0           7.0       1.0        0.0            56.6                5.0       100.0
+Ochro3194_1             22.0        22.0            17.0              4.0           1.0       0.0        0.0            89.2                5.0       100.0
+Phaglo1                 22.0        17.0             1.0              0.0          16.0       3.0        5.0            38.0                5.0        77.3
+Pparv12B1_1_1           22.0        19.0             1.0              0.0          18.0       3.0        3.0            35.6                5.0        86.4
+
+Files saved in: analysis_output/

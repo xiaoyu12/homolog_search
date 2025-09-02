@@ -1,0 +1,6 @@
+	Protein_Family	Total_Queries	Total_Hits	Hit_Rate_%	HIGH_Orthologs	MEDIUM_Homologs	LOW_Possible	VERY_LOW	NOT_FOUND	Avg_Identity_%
+0	hydroxylases	48.0	34.0	70.8	19.0	1.0	14.0	8.0	14.0	47.5
+1	pks_long	88.0	88.0	100.0	24.0	11.0	53.0	14.0	0.0	54.6
+2	decarboxylases	8.0	5.0	62.5	2.0	0.0	3.0	0.0	3.0	56.8
+3	polyketide_synthases	16.0	13.0	81.2	2.0	4.0	7.0	1.0	3.0	59.1
+4	elongases	16.0	16.0	100.0	6.0	2.0	8.0	0.0	0.0	61.0

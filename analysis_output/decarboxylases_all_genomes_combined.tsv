@@ -1,0 +1,9 @@
+query_id	subject_id	pident	length	mismatch	gapopen	qstart	qend	sstart	send	evalue	bitscore	qlen	slen	qcovs	significance	genome
+97873	3975397.0	80.537	447.0	7.0	3	1.0	395.0	1.0	419.0	0.0	602.0	396.0	419	99.0	HIGH (likely ortholog)	Ochro3194_1
+97873					0								396		NOT FOUND	Chrpa1_1
+97873	381750.0	78.5	400.0	29.0	3	1.0	395.0	1.0	348.0	0.0	509.0	396.0	348	99.0	HIGH (likely ortholog)	Gepoce1
+97873	1214709.0	44.526	411.0	133.0	8	12.0	355.0	16.0	398.0	5.31e-86	267.0	396.0	431	87.0	LOW (possible homolog)	IsochDm2_1
+97873					0								396		NOT FOUND	Chrsp_1
+97873	30119.0	31.646	158.0	91.0	6	72.0	218.0	118.0	269.0	3.52e-06	48.9	396.0	672	37.0	LOW (possible homolog)	Phaglo1
+97873					0								396		NOT FOUND	Pparv12B1_1_1
+97873	79338.0	48.649	333.0	83.0	5	83.0	355.0	94.0	398.0	1.05e-85	266.0	396.0	431	69.0	LOW (possible homolog)	Isogal1

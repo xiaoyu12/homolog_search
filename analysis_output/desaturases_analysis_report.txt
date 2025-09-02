@@ -1,0 +1,45 @@
+
+================================================================================
+COMPREHENSIVE ANALYSIS REPORT FOR DESATURASES.FASTA
+================================================================================
+
+OVERALL STATISTICS:
+  Total genomes analyzed: 8
+  Total queries: 40
+  Total hits found: 32
+  Hit rate: 80.0%
+
+SIGNIFICANCE BREAKDOWN:
+  HIGH (likely orthologs): 14
+  MEDIUM (likely homologs): 1
+  LOW (possible homologs): 17
+  VERY LOW: 11
+  NOT FOUND: 8
+
+PER-GENOME BREAKDOWN:
+Genome               Queries    Hits     High     Med      Low     
+----------------------------------------------------------------------
+Ochro3194_1          5          5        4        0        1       
+Chrpa1_1             5          3        0        0        3       
+Gepoce1              5          5        4        1        0       
+IsochDm2_1           5          5        3        0        2       
+Chrsp_1              5          3        0        0        3       
+Phaglo1              5          3        0        0        3       
+Pparv12B1_1_1        5          3        0        0        3       
+Isogal1              5          5        3        0        2       
+
+TOP HITS ANALYSIS:
+
+Top 5 hits by identity:
+  438862 → 3956156.0 (Ochro3194_1): 96.5% identity, E-value: 0.00e+00
+  438862 → 396255.0 (Gepoce1): 91.5% identity, E-value: 0.00e+00
+  468588 → 4757196.0 (Ochro3194_1): 91.2% identity, E-value: 0.00e+00
+  457951 → 377293.0 (Gepoce1): 90.5% identity, E-value: 0.00e+00
+  457951 → 3991966.0 (Ochro3194_1): 89.4% identity, E-value: 0.00e+00
+
+Top 5 hits by E-value:
+  468588 → 4757196.0 (Ochro3194_1): E-value: 0.00e+00, 91.2% identity
+  457922 → 4757196.0 (Ochro3194_1): E-value: 0.00e+00, 84.5% identity
+  438862 → 3956156.0 (Ochro3194_1): E-value: 0.00e+00, 96.5% identity
+  457951 → 3991966.0 (Ochro3194_1): E-value: 0.00e+00, 89.4% identity
+  438862 → 396255.0 (Gepoce1): E-value: 0.00e+00, 91.5% identity

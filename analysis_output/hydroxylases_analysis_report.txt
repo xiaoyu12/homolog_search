@@ -1,0 +1,45 @@
+
+================================================================================
+COMPREHENSIVE ANALYSIS REPORT FOR HYDROXYLASES.FASTA
+================================================================================
+
+OVERALL STATISTICS:
+  Total genomes analyzed: 8
+  Total queries: 48
+  Total hits found: 34
+  Hit rate: 70.8%
+
+SIGNIFICANCE BREAKDOWN:
+  HIGH (likely orthologs): 19
+  MEDIUM (likely homologs): 1
+  LOW (possible homologs): 14
+  VERY LOW: 8
+  NOT FOUND: 14
+
+PER-GENOME BREAKDOWN:
+Genome               Queries    Hits     High     Med      Low     
+----------------------------------------------------------------------
+Ochro3194_1          6          6        5        0        1       
+Chrpa1_1             6          2        0        0        2       
+Gepoce1              6          6        5        0        1       
+IsochDm2_1           6          6        4        1        1       
+Chrsp_1              6          2        0        0        2       
+Phaglo1              6          2        0        0        2       
+Pparv12B1_1_1        6          4        0        0        4       
+Isogal1              6          6        5        0        1       
+
+TOP HITS ANALYSIS:
+
+Top 5 hits by identity:
+  433841 → 4714397.0 (Ochro3194_1): 96.8% identity, E-value: 0.00e+00
+  433841 → 372711.0 (Gepoce1): 95.5% identity, E-value: 0.00e+00
+  350676 → 5367479.0 (Ochro3194_1): 93.7% identity, E-value: 0.00e+00
+  228975 → 4667383.0 (Ochro3194_1): 92.7% identity, E-value: 4.74e-127
+  350676 → 387307.0 (Gepoce1): 79.3% identity, E-value: 0.00e+00
+
+Top 5 hits by E-value:
+  350676 → 5367479.0 (Ochro3194_1): E-value: 0.00e+00, 93.7% identity
+  433841 → 4714397.0 (Ochro3194_1): E-value: 0.00e+00, 96.8% identity
+  350676 → 387307.0 (Gepoce1): E-value: 0.00e+00, 79.3% identity
+  433841 → 372711.0 (Gepoce1): E-value: 0.00e+00, 95.5% identity
+  102590 → 4714397.0 (Ochro3194_1): E-value: 2.63e-164, 70.3% identity
