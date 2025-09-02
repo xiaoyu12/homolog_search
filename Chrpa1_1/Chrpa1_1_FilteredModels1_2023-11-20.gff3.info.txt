@@ -1,5 +1,0 @@
-Organism:	Chrysochromulina parva Lackey v1.1	(Chrpa1_1)
-created:	2023-11-20+19-37-32
-Tracks:	FilteredModels1
-Track:	FilteredModels1 loaded:24,838 records
-Total:	24,838 records

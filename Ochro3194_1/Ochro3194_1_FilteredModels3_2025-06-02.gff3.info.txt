@@ -1,5 +1,0 @@
-Organism:	Ochrosphaera sp. CCMP3194	(Ochro3194_1)
-created:	2025-06-02+16-38-05
-Tracks:	FilteredModels3
-Track:	FilteredModels3 loaded:40,639 records
-Total:	40,639 records

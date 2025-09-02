@@ -1,4 +1,0 @@
-unmasked-assembly:	Isochrysis sp. Dm2 v1.0	(IsochDm2_1)
-created:	2024-11-19+07-56-20
-NCBI taxon:	Isochrysis	(37098)
-see:	https://phycocosm.jgi.doe.gov/IsochDm2_1

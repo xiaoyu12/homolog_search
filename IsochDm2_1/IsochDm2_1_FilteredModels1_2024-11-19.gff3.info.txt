@@ -1,5 +1,0 @@
-Organism:	Isochrysis sp. Dm2 v1.0	(IsochDm2_1)
-created:	2024-11-19+07-56-24
-Tracks:	FilteredModels1
-Track:	FilteredModels1 loaded:24,444 records
-Total:	24,444 records
