@@ -1,2 +1,10 @@
 *.pyc
 __pycache__/
+output/*/*.pdb
+output/*/*.phr
+output/*/*.pin
+output/*/*.pjs
+output/*/*.pot
+output/*/*.psq
+output/*/*.ptf
+output/*/*.pto

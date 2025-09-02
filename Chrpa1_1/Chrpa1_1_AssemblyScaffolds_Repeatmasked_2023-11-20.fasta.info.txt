@@ -1,0 +1,4 @@
+repeatmasked-assembly:	Chrysochromulina parva Lackey v1.1	(Chrpa1_1)
+created:	2023-11-20+19-37-51
+NCBI taxon:	Chrysochromulina parva	(127563)
+see:	https://phycocosm.jgi.doe.gov/Chrpa1_1

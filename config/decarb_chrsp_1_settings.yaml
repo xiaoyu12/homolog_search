@@ -1,0 +1,14 @@
+locations:
+  input-dir: "."
+  output-dir: "output"
+  genome-fasta: "Chrsp_1/Chrsp_1_AssemblyScaffolds.fasta"
+  gff3-file: "Chrsp_1/Chrsp_1_GeneCatalog_20180813.gff3"
+  proteins-fasta: "decarboxylases.fasta"
+  blast-output: "decarb_vs_Chrsp_1.tsv"
+
+general:
+  species: "Chrysochromulina tobin"
+  species-short: "Chrsp_1"
+  evalue: 1e-05
+  max-target-seqs: 10
+  n-cores: 4

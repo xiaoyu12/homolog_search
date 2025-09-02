@@ -1,0 +1,3 @@
+query_id,subject_id,pident,length,mismatch,gapopen,qstart,qend,sstart,send,evalue,bitscore,qlen,slen,qcovs,significance
+351492,390416,99.638,276,1,0,1,276,1,276,0.0,572.0,277,276,99.0,HIGH (likely ortholog)
+414244,376897,100.0,138,0,0,1,138,145,282,7.76e-99,286.0,162,310,85.0,HIGH (likely ortholog)

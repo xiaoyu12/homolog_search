@@ -1,0 +1,14 @@
+locations:
+  input-dir: "."
+  output-dir: "output"
+  genome-fasta: "Isogal1/Isogal1_AssemblyScaffolds.fasta"
+  gff3-file: "Isogal1/Isogal1_GeneCatalog_20180824.gff3"
+  proteins-fasta: "pks_long.fasta"
+  blast-output: "pks_long_vs_Isogal1.tsv"
+
+general:
+  species: "Isochrysis galbana"
+  species-short: "Isogal1"
+  evalue: 1e-05
+  max-target-seqs: 10
+  n-cores: 4

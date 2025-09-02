@@ -1,0 +1,14 @@
+locations:
+  input-dir: "."
+  output-dir: "output"
+  genome-fasta: "IsochDm2_1/IsochDm2_1_AssemblyScaffolds_2024-11-19.fasta"
+  gff3-file: "IsochDm2_1/IsochDm2_1_FilteredModels1_2024-11-19.gff3"
+  proteins-fasta: "desaturases.fasta"
+  blast-output: "des_vs_IsochDm2_1.tsv"
+
+general:
+  species: "Isochrysis galbana CCMP1323"
+  species-short: "IsochDm2_1"
+  evalue: 1e-05
+  max-target-seqs: 10
+  n-cores: 4

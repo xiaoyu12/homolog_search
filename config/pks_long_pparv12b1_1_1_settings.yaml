@@ -1,0 +1,14 @@
+locations:
+  input-dir: "."
+  output-dir: "output"
+  genome-fasta: "Pparv12B1_1_1/Pparv12B1_1_1_AssemblyScaffolds_2025-04-20.fasta"
+  gff3-file: "Pparv12B1_1_1/Pparv12B1_1_1_FilteredModels1_2025-04-20.gff3"
+  proteins-fasta: "pks_long.fasta"
+  blast-output: "pks_long_vs_Pparv12B1_1_1.tsv"
+
+general:
+  species: "Pavlova parvum"
+  species-short: "Pparv12B1_1_1"
+  evalue: 1e-05
+  max-target-seqs: 10
+  n-cores: 4

@@ -1,0 +1,4 @@
+repeatmasked-assembly:	Prymnesium parvum 12B1 v1.1	(Pparv12B1_1_1)
+created:	2025-04-20+20-47-13
+NCBI taxon:	Prymnesium parvum	(97485)
+see:	https://phycocosm.jgi.doe.gov/Pparv12B1_1_1

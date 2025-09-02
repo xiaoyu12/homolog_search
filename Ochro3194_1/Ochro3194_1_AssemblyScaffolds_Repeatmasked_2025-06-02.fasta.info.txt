@@ -1,0 +1,4 @@
+repeatmasked-assembly:	Ochrosphaera sp. CCMP3194	(Ochro3194_1)
+created:	2025-06-02+16-40-00
+NCBI taxon:	Ochrosphaera	(2905)
+see:	https://phycocosm.jgi.doe.gov/Ochro3194_1

@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "Isogal1_db",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "output/Isogal1/Isogal1_proteins.fasta",
+  "number-of-letters": 7784757,
+  "number-of-sequences": 14965,
+  "last-updated": "2025-09-01T22:26:00",
+  "number-of-volumes": 1,
+  "bytes-total": 9527636,
+  "bytes-to-cache": 7919563,
+  "files": [
+    "Isogal1_db.pdb",
+    "Isogal1_db.phr",
+    "Isogal1_db.pin",
+    "Isogal1_db.pot",
+    "Isogal1_db.psq",
+    "Isogal1_db.ptf",
+    "Isogal1_db.pto"
+  ]
+}

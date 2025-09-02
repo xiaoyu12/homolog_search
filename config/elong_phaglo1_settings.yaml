@@ -1,0 +1,14 @@
+locations:
+  input-dir: "."
+  output-dir: "output"
+  genome-fasta: "Phaglo1/Phaglo1_AssemblyScaffolds.fasta"
+  gff3-file: "Phaglo1/Phaglo1_GeneCatalog_20181013.gff3"
+  proteins-fasta: "elongases.fasta"
+  blast-output: "elong_vs_Phaglo1.tsv"
+
+general:
+  species: "Phaeodactylum tricornutum"
+  species-short: "Phaglo1"
+  evalue: 1e-05
+  max-target-seqs: 10
+  n-cores: 4

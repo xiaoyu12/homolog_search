@@ -1,0 +1,7 @@
+query_id,subject_id,pident,length,mismatch,gapopen,qstart,qend,sstart,send,evalue,bitscore,qlen,slen,qcovs,significance
+228975,,,,,0,,,,,,,,204,,NOT FOUND
+102590,11891,27.076,8.16e-07,49.7,75.0,277,155,12,33,283,45,300,334,307,VERY LOW
+218336,11891,27.076,8.62e-07,49.7,77.0,277,155,12,24,274,45,300,325,307,VERY LOW
+350676,,,,,0,,,,,,,,409,,NOT FOUND
+433841,13364,27.011,1.8e-10,60.8,45.0,174,75,5,171,326,140,279,348,289,VERY LOW
+440184,13364,31.544,1.22e-07,52.4,41.0,149,83,5,194,342,149,278,364,289,LOW (possible homolog)

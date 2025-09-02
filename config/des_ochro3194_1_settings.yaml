@@ -1,0 +1,14 @@
+locations:
+  input-dir: "."
+  output-dir: "output"
+  genome-fasta: "Ochro3194_1/Ochro3194_1_AssemblyScaffolds_2025-06-02.fasta"
+  gff3-file: "Ochro3194_1/Ochro3194_1_FilteredModels3_2025-06-02.gff3"
+  proteins-fasta: "desaturases.fasta"
+  blast-output: "des_vs_Ochro3194_1.tsv"
+
+general:
+  species: "Ochrosphaera sp. CCMP3194"
+  species-short: "Ochro3194_1"
+  evalue: 1e-05
+  max-target-seqs: 10
+  n-cores: 4

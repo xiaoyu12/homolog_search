@@ -1,0 +1,14 @@
+locations:
+  input-dir: "."
+  output-dir: "output"
+  genome-fasta: "Gepoce1/Gepoce1_AssemblyScaffolds.fasta"
+  gff3-file: "Gepoce1/Gepoce1_GeneCatalog_20180824.gff3"
+  proteins-fasta: "polyketide_synthases.fasta"
+  blast-output: "pks_vs_Gepoce1.tsv"
+
+general:
+  species: "Gephyrocapsa oceanica"
+  species-short: "Gepoce1"
+  evalue: 1e-05
+  max-target-seqs: 10
+  n-cores: 4
