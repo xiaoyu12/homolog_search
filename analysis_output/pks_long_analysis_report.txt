@@ -4,29 +4,30 @@ COMPREHENSIVE ANALYSIS REPORT FOR PKS_LONG.FASTA
 ================================================================================
 
 OVERALL STATISTICS:
-  Total genomes analyzed: 8
-  Total queries: 88
-  Total hits found: 88
+  Total genomes analyzed: 9
+  Total queries: 99
+  Total hits found: 99
   Hit rate: 100.0%
 
 SIGNIFICANCE BREAKDOWN:
-  HIGH (likely orthologs): 24
-  MEDIUM (likely homologs): 11
-  LOW (possible homologs): 53
-  VERY LOW: 14
+  HIGH (likely orthologs): 33
+  MEDIUM (likely homologs): 47
+  LOW (possible homologs): 19
+  VERY LOW: 0
   NOT FOUND: 0
 
 PER-GENOME BREAKDOWN:
 Genome               Queries    Hits     High     Med      Low     
 ----------------------------------------------------------------------
-Ochro3194_1          11         11       8        3        0       
-Chrpa1_1             11         11       0        0        11      
-Gepoce1              11         11       6        4        1       
-IsochDm2_1           11         11       4        2        5       
+Platy1217_1          11         11       0        11       0       
+Ochro3194_1          11         11       11       0        0       
+Chrpa1_1             11         11       0        9        2       
+Gepoce1              11         11       8        3        0       
+IsochDm2_1           11         11       6        3        2       
 Chrsp_1              11         11       0        0        11      
-Phaglo1              11         11       1        0        10      
-Pparv12B1_1_1        11         11       1        0        10      
-Isogal1              11         11       4        2        5       
+Phaglo1              11         11       1        8        2       
+Pparv12B1_1_1        11         11       1        10       0       
+Isogal1              11         11       6        3        2       
 
 TOP HITS ANALYSIS:
 
@@ -38,8 +39,8 @@ Top 5 hits by identity:
   632047 → 3980767 (Ochro3194_1): 96.2% identity, E-value: 0.00e+00
 
 Top 5 hits by E-value:
-  631879 → 924779 (Ochro3194_1): E-value: 0.00e+00, 98.0% identity
-  631889 → 3320429 (Ochro3194_1): E-value: 0.00e+00, 91.5% identity
-  631892 → 3320429 (Ochro3194_1): E-value: 0.00e+00, 96.5% identity
-  632047 → 3980767 (Ochro3194_1): E-value: 0.00e+00, 96.2% identity
-  632054 → 4994359 (Ochro3194_1): E-value: 0.00e+00, 80.7% identity
+  631879 → 2354235 (Platy1217_1): E-value: 0.00e+00, 64.1% identity
+  631889 → 2383842 (Platy1217_1): E-value: 0.00e+00, 39.6% identity
+  631892 → 3137543 (Platy1217_1): E-value: 0.00e+00, 38.4% identity
+  632054 → 2383842 (Platy1217_1): E-value: 0.00e+00, 45.0% identity
+  632068 → 2383842 (Platy1217_1): E-value: 0.00e+00, 43.6% identity

@@ -4,29 +4,30 @@ COMPREHENSIVE ANALYSIS REPORT FOR DESATURASES.FASTA
 ================================================================================
 
 OVERALL STATISTICS:
-  Total genomes analyzed: 8
-  Total queries: 40
-  Total hits found: 32
-  Hit rate: 80.0%
+  Total genomes analyzed: 9
+  Total queries: 45
+  Total hits found: 37
+  Hit rate: 82.2%
 
 SIGNIFICANCE BREAKDOWN:
-  HIGH (likely orthologs): 14
-  MEDIUM (likely homologs): 1
-  LOW (possible homologs): 17
-  VERY LOW: 11
+  HIGH (likely orthologs): 16
+  MEDIUM (likely homologs): 6
+  LOW (possible homologs): 15
+  VERY LOW: 0
   NOT FOUND: 8
 
 PER-GENOME BREAKDOWN:
 Genome               Queries    Hits     High     Med      Low     
 ----------------------------------------------------------------------
-Ochro3194_1          5          5        4        0        1       
+Platy1217_1          5          5        1        0        4       
+Ochro3194_1          5          5        4        1        0       
 Chrpa1_1             5          3        0        0        3       
-Gepoce1              5          5        4        1        0       
-IsochDm2_1           5          5        3        0        2       
+Gepoce1              5          5        5        0        0       
+IsochDm2_1           5          5        3        2        0       
 Chrsp_1              5          3        0        0        3       
-Phaglo1              5          3        0        0        3       
+Phaglo1              5          3        0        1        2       
 Pparv12B1_1_1        5          3        0        0        3       
-Isogal1              5          5        3        0        2       
+Isogal1              5          5        3        2        0       
 
 TOP HITS ANALYSIS:
 

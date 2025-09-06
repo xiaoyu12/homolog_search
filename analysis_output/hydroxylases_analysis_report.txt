@@ -4,29 +4,30 @@ COMPREHENSIVE ANALYSIS REPORT FOR HYDROXYLASES.FASTA
 ================================================================================
 
 OVERALL STATISTICS:
-  Total genomes analyzed: 8
-  Total queries: 48
-  Total hits found: 34
-  Hit rate: 70.8%
+  Total genomes analyzed: 9
+  Total queries: 54
+  Total hits found: 36
+  Hit rate: 66.7%
 
 SIGNIFICANCE BREAKDOWN:
-  HIGH (likely orthologs): 19
-  MEDIUM (likely homologs): 1
-  LOW (possible homologs): 14
-  VERY LOW: 8
-  NOT FOUND: 14
+  HIGH (likely orthologs): 20
+  MEDIUM (likely homologs): 7
+  LOW (possible homologs): 9
+  VERY LOW: 0
+  NOT FOUND: 18
 
 PER-GENOME BREAKDOWN:
 Genome               Queries    Hits     High     Med      Low     
 ----------------------------------------------------------------------
-Ochro3194_1          6          6        5        0        1       
+Platy1217_1          6          2        0        1        1       
+Ochro3194_1          6          6        5        1        0       
 Chrpa1_1             6          2        0        0        2       
-Gepoce1              6          6        5        0        1       
-IsochDm2_1           6          6        4        1        1       
+Gepoce1              6          6        5        1        0       
+IsochDm2_1           6          6        5        1        0       
 Chrsp_1              6          2        0        0        2       
-Phaglo1              6          2        0        0        2       
-Pparv12B1_1_1        6          4        0        0        4       
-Isogal1              6          6        5        0        1       
+Phaglo1              6          2        0        1        1       
+Pparv12B1_1_1        6          4        0        1        3       
+Isogal1              6          6        5        1        0       
 
 TOP HITS ANALYSIS:
 

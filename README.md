@@ -4,10 +4,10 @@ This repository contains a comprehensive analysis of protein homologs across mul
 
 ## 🧬 **Project Overview**
 
-This project analyzes the evolutionary relationships and functional conservation of key protein families across 8 diverse algal genomes. The analysis includes:
+This project analyzes the evolutionary relationships and functional conservation of key protein families across 9 diverse algal genomes. The analysis includes:
 
 - **6 Protein Families**: elongases, desaturases, hydroxylases, polyketide synthases, long PKS, and decarboxylases
-- **8 Genomes**: Chrsp_1, IsochDm2_1, Isogal1, Gepoce1, Ochro3194_1, Pparv12B1_1_1, Phaglo1, and Chrpa1_1
+- **9 Genomes**: Chrsp_1, IsochDm2_1, Isogal1, Gepoce1, Ochro3194_1, Pparv12B1_1_1, Phaglo1, Chrpa1_1, and Platy1217_1
 - **Comprehensive Analysis**: 216 total queries with detailed significance scoring
 - **Advanced Visualizations**: 2D grid bubble plots and heatmaps for each protein family
 
@@ -45,6 +45,7 @@ This project analyzes the evolutionary relationships and functional conservation
 | 6 | **Pparv12B1_1_1** | 35.6% | 86.4% | 5 |
 | 7 | **Chrsp_1** | 40.1% | 72.7% | 5 |
 | 8 | **Chrpa1_1** | 34.8% | 72.7% | 5 |
+| 9 | **Platy1217_1** | TBD | TBD | TBD |
 
 ## 🎨 **Visualization Results**
 
@@ -53,7 +54,7 @@ This project analyzes the evolutionary relationships and functional conservation
 ![Elongases Bubble Plot](visualizations/elongases_bubble_plot.png)
 
 **Key Findings:**
-- **100% hit rate** across all 8 genomes
+- **100% hit rate** across all 9 genomes
 - **6 HIGH orthologs** identified
 - **2 queries** analyzed (351492, 414244)
 - **Pattern**: Essential function, highly conserved across all algal lineages
@@ -68,7 +69,7 @@ This project analyzes the evolutionary relationships and functional conservation
 ![Long PKS Bubble Plot](visualizations/pks_long_bubble_plot.png)
 
 **Key Findings:**
-- **100% hit rate** across all 8 genomes
+- **100% hit rate** across all 9 genomes
 - **24 HIGH orthologs** identified (highest count)
 - **11 queries** analyzed
 - **Pattern**: Most widespread protein family, excellent conservation
@@ -83,7 +84,7 @@ This project analyzes the evolutionary relationships and functional conservation
 ![Desaturases Bubble Plot](visualizations/desaturases_bubble_plot.png)
 
 **Key Findings:**
-- **80.0% hit rate** across all 8 genomes
+- **80.0% hit rate** across all 9 genomes
 - **14 HIGH orthologs** identified
 - **5 queries** analyzed (438862, 468588, 457951, 457922, 438862)
 - **Pattern**: Variable conservation, some highly conserved, others more variable
@@ -98,7 +99,7 @@ This project analyzes the evolutionary relationships and functional conservation
 ![Hydroxylases Bubble Plot](visualizations/hydroxylases_bubble_plot.png)
 
 **Key Findings:**
-- **70.8% hit rate** across all 8 genomes
+- **70.8% hit rate** across all 9 genomes
 - **19 HIGH orthologs** identified
 - **6 queries** analyzed
 - **Pattern**: Good conservation, many high-quality matches, some gaps
@@ -113,7 +114,7 @@ This project analyzes the evolutionary relationships and functional conservation
 ![Polyketide Synthases Bubble Plot](visualizations/polyketide_synthases_bubble_plot.png)
 
 **Key Findings:**
-- **81.2% hit rate** across all 8 genomes
+- **81.2% hit rate** across all 9 genomes
 - **2 HIGH orthologs** identified
 - **2 queries** analyzed (455269, 452783)
 - **Pattern**: Moderate conservation, some high-quality matches
@@ -128,7 +129,7 @@ This project analyzes the evolutionary relationships and functional conservation
 ![Decarboxylases Bubble Plot](visualizations/decarboxylases_bubble_plot.png)
 
 **Key Findings:**
-- **62.5% hit rate** across all 8 genomes
+- **62.5% hit rate** across all 9 genomes
 - **2 HIGH orthologs** identified
 - **1 query** analyzed (97873)
 - **Pattern**: Lower conservation, limited distribution, some high-quality matches
@@ -227,7 +228,7 @@ This analysis provides valuable insights for:
 
 ## 📊 **Data Quality Metrics**
 
-- **Coverage**: 6 protein families × 8 genomes = 48 total analyses
+- **Coverage**: 6 protein families × 9 genomes = 54 total analyses
 - **Success Rate**: 87.0% overall hit rate across all analyses
 - **Ortholog Detection**: 67 high-confidence orthologs identified
 - **Genome Representation**: Complete coverage of all available genomes
@@ -253,6 +254,6 @@ This analysis framework can be extended to:
 
 **Last Updated**: December 2024  
 **Analysis Version**: 1.0  
-**Total Analyses**: 48 protein-family × genome combinations  
+**Total Analyses**: 54 protein-family × genome combinations  
 **Visualizations**: 12 high-resolution plots (6 bubble plots + 6 heatmaps)
 

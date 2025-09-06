@@ -1,0 +1,14 @@
+locations:
+  input-dir: "."
+  output-dir: "output"
+  genome-fasta: "Platy1217_1/Platy1217_1_AssemblyScaffolds_2025-01-21.fasta"
+  gff3-file: "Platy1217_1/Platy1217_1_FilteredModels1_2025-01-21.gff3"
+  proteins-fasta: "elongases.fasta"
+  blast-output: "elong_vs_Platy1217_1.tsv"
+
+general:
+  species: "Prymnesium platychrysis sp"
+  species-short: "Platy1217_1"
+  evalue: 1e-05
+  max-target-seqs: 10
+  n-cores: 4

@@ -127,14 +127,14 @@ def analyze_blast_results(blast_results, query_proteins):
             print(f"    Subject length: {hit['slen']} aa")
             
             # Determine significance
-            if hit['pident'] >= 70 and hit['qcovs'] >= 70 and hit['evalue'] <= 1e-50:
+            if hit['pident'] >= 70 and hit['qcovs'] >= 80 and hit['evalue'] <= 1e-50:
+                significance = "VERY HIGH (likely ortholog)"
+            elif hit['pident'] >= 50 and hit['qcovs'] >= 70 and hit['evalue'] <= 1e-20:
                 significance = "HIGH (likely ortholog)"
-            elif hit['pident'] >= 50 and hit['qcovs'] >= 50 and hit['evalue'] <= 1e-20:
+            elif hit['pident'] >= 30 and hit['qcovs'] >= 50 and hit['evalue'] <= 1e-5:
                 significance = "MEDIUM (likely homolog)"
-            elif hit['pident'] >= 30 and hit['qcovs'] >= 30 and hit['evalue'] <= 1e-5:
-                significance = "LOW (possible homolog)"
             else:
-                significance = "VERY LOW"
+                significance = "LOW (possible homolog)"
             
             print(f"    Significance: {significance}")
         print("\n" + "="*60 + "\n")
@@ -155,14 +155,14 @@ def analyze_blast_results(blast_results, query_proteins):
             print(f"    Alignment length: {best_hits[query_id]['length']} aa")
             print(f"    Subject length: {best_hits[query_id]['slen']} aa")
             best_hit = best_hits[query_id]
-            if best_hit['pident'] >= 50 and best_hit['qcovs'] >= 80 and best_hit['evalue'] <= 1e-50:
+            if best_hit['pident'] >= 70 and best_hit['qcovs'] >= 80 and best_hit['evalue'] <= 1e-50:
+                best_hits[query_id]['significance'] = "VERY HIGH (likely ortholog)"
+            elif best_hit['pident'] >= 50 and best_hit['qcovs'] >= 60 and best_hit['evalue'] <= 1e-20:
                 best_hits[query_id]['significance'] = "HIGH (likely ortholog)"
-            elif best_hit['pident'] >= 50 and best_hit['qcovs'] >= 50 and best_hit['evalue'] <= 1e-20:
+            elif best_hit['pident'] >= 30 and best_hit['qcovs'] >= 40 and best_hit['evalue'] <= 1e-5:
                 best_hits[query_id]['significance'] = "MEDIUM (likely homolog)"
-            elif best_hit['pident'] >= 30 and best_hit['qcovs'] >= 30 and best_hit['evalue'] <= 1e-5:
-                best_hits[query_id]['significance'] = "LOW (possible homolog)"
             else:
-                best_hits[query_id]['significance'] = "VERY LOW"
+                best_hits[query_id]['significance'] = "LOW (possible homolog)"
             print(f"    Significance: {best_hits[query_id]['significance']}")
         else:
             # Set fields to None

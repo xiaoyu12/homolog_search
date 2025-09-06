@@ -1,2 +1,2 @@
 query_id,subject_id,pident,length,mismatch,gapopen,qstart,qend,sstart,send,evalue,bitscore,qlen,slen,qcovs,significance
-97873,79338,48.649,333,83,5,83,355,94,398,1.05e-85,266.0,396,431,69.0,LOW (possible homolog)
+97873,79338,48.649,333,83,5,83,355,94,398,1.05e-85,266.0,396,431,69.0,MEDIUM (likely homolog)

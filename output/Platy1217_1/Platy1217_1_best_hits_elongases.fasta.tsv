@@ -1,0 +1,3 @@
+query_id,subject_id,pident,length,mismatch,gapopen,qstart,qend,sstart,send,evalue,bitscore,qlen,slen,qcovs,significance
+351492,2382607,31.707,123,74,4,83,203,96,210,6.72e-10,58.5,277,283,44.0,MEDIUM (likely homolog)
+414244,2382607,34.314,102,62,3,2,101,117,215,3.41e-10,57.0,162,283,62.0,MEDIUM (likely homolog)

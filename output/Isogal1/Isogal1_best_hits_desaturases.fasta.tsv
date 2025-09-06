@@ -1,6 +1,6 @@
 query_id,subject_id,pident,length,mismatch,gapopen,qstart,qend,sstart,send,evalue,bitscore,qlen,slen,qcovs,significance
-100944,79858,45.833,384,179,3,1,384,25,379,5.35e-114,337.0,392,381,98.0,LOW (possible homolog)
+100944,79858,45.833,384,179,3,1,384,25,379,5.35e-114,337.0,392,381,98.0,MEDIUM (likely homolog)
 468588,79858,67.259,394,114,4,1,393,1,380,1.81e-178,501.0,398,381,99.0,HIGH (likely ortholog)
 457922,79858,60.681,323,86,4,45,332,1,317,4.49e-134,385.0,332,381,87.0,HIGH (likely ortholog)
 438862,81131,57.371,563,209,8,5,560,14,552,0.0,614.0,570,552,98.0,HIGH (likely ortholog)
-457951,85461,36.29,372,211,8,9,363,13,375,3.42e-54,182.0,371,386,96.0,LOW (possible homolog)
+457951,85461,36.29,372,211,8,9,363,13,375,3.42e-54,182.0,371,386,96.0,MEDIUM (likely homolog)

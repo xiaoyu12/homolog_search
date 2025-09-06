@@ -1,0 +1,7 @@
+query_id,subject_id,pident,length,mismatch,gapopen,qstart,qend,sstart,send,evalue,bitscore,qlen,slen,qcovs,significance
+228975,,,,,0,,,,,,,,204,,NOT FOUND
+102590,,,,,0,,,,,,,,334,,NOT FOUND
+218336,,,,,0,,,,,,,,325,,NOT FOUND
+350676,,,,,0,,,,,,,,409,,NOT FOUND
+433841,2726590,29.487,9.92e-11,62.0,45.0,156,94,5,171,326,144,283,348,320,LOW (possible homolog)
+440184,2393257,30.0,9.68e-08,52.8,44.0,160,98,6,189,347,150,296,364,304,MEDIUM (likely homolog)

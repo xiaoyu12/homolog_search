@@ -9,7 +9,7 @@ This directory contains comprehensive visualizations of the protein best hits an
 **Purpose**: Show the significance and quality of best hits for each query protein across all genomes.
 
 **Layout**:
-- **X-axis**: Different genomes (8 total)
+- **X-axis**: Different genomes (9 total)
 - **Y-axis**: Different query proteins from each family
 - **Bubble size**: Represents significance level
 - **Bubble color**: Represents significance category
@@ -85,6 +85,9 @@ This directory contains comprehensive visualizations of the protein best hits an
 - **Chrsp_1**: Lower conservation (40.1% average identity)
 - **Chrpa1_1**: Lower conservation (34.8% average identity)
 - **Pparv12B1_1_1**: Lower conservation (35.6% average identity)
+
+### **New Addition**:
+- **Platy1217_1**: Prymnesium platychrysis sp (analysis pending)
 
 ## How to Interpret the Visualizations
 

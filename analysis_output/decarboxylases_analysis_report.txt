@@ -4,29 +4,30 @@ COMPREHENSIVE ANALYSIS REPORT FOR DECARBOXYLASES.FASTA
 ================================================================================
 
 OVERALL STATISTICS:
-  Total genomes analyzed: 8
-  Total queries: 8
+  Total genomes analyzed: 9
+  Total queries: 9
   Total hits found: 5
-  Hit rate: 62.5%
+  Hit rate: 55.6%
 
 SIGNIFICANCE BREAKDOWN:
   HIGH (likely orthologs): 2
-  MEDIUM (likely homologs): 0
-  LOW (possible homologs): 3
+  MEDIUM (likely homologs): 2
+  LOW (possible homologs): 1
   VERY LOW: 0
-  NOT FOUND: 3
+  NOT FOUND: 4
 
 PER-GENOME BREAKDOWN:
 Genome               Queries    Hits     High     Med      Low     
 ----------------------------------------------------------------------
+Platy1217_1          1          0        0        0        0       
 Ochro3194_1          1          1        1        0        0       
 Chrpa1_1             1          0        0        0        0       
 Gepoce1              1          1        1        0        0       
-IsochDm2_1           1          1        0        0        1       
+IsochDm2_1           1          1        0        1        0       
 Chrsp_1              1          0        0        0        0       
 Phaglo1              1          1        0        0        1       
 Pparv12B1_1_1        1          0        0        0        0       
-Isogal1              1          1        0        0        1       
+Isogal1              1          1        0        1        0       
 
 TOP HITS ANALYSIS:
 

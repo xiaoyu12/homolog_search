@@ -21,6 +21,7 @@ This directory contains YAML configuration files for running homolog searches be
 - **Pparv12B1_1_1**: Pavlova parvum
 - **Phaglo1**: Phaeodactylum tricornutum
 - **Chrpa1_1**: Chrysochromulina parva
+- **Platy1217_1**: Prymnesium platychrysis sp
 
 ## Configuration File Naming Convention
 
@@ -33,7 +34,7 @@ Examples:
 
 ## Total Configurations
 
-- **6 query types** × **8 genomes** = **48 total configurations**
+- **6 query types** × **9 genomes** = **54 total configurations**
 
 ## Usage
 

@@ -4,29 +4,30 @@ COMPREHENSIVE ANALYSIS REPORT FOR POLYKETIDE_SYNTHASES.FASTA
 ================================================================================
 
 OVERALL STATISTICS:
-  Total genomes analyzed: 8
-  Total queries: 16
-  Total hits found: 13
-  Hit rate: 81.2%
+  Total genomes analyzed: 9
+  Total queries: 18
+  Total hits found: 15
+  Hit rate: 83.3%
 
 SIGNIFICANCE BREAKDOWN:
-  HIGH (likely orthologs): 2
-  MEDIUM (likely homologs): 4
-  LOW (possible homologs): 7
-  VERY LOW: 1
+  HIGH (likely orthologs): 3
+  MEDIUM (likely homologs): 10
+  LOW (possible homologs): 2
+  VERY LOW: 0
   NOT FOUND: 3
 
 PER-GENOME BREAKDOWN:
 Genome               Queries    Hits     High     Med      Low     
 ----------------------------------------------------------------------
+Platy1217_1          2          2        0        1        1       
 Ochro3194_1          2          2        1        1        0       
-Chrpa1_1             2          1        0        0        1       
-Gepoce1              2          2        1        0        1       
-IsochDm2_1           2          2        0        1        1       
+Chrpa1_1             2          1        0        1        0       
+Gepoce1              2          2        1        1        0       
+IsochDm2_1           2          2        0        2        0       
 Chrsp_1              2          1        0        0        1       
-Phaglo1              2          1        0        0        1       
-Pparv12B1_1_1        2          2        0        0        2       
-Isogal1              2          2        0        2        0       
+Phaglo1              2          1        0        1        0       
+Pparv12B1_1_1        2          2        0        2        0       
+Isogal1              2          2        1        1        0       
 
 TOP HITS ANALYSIS:
 

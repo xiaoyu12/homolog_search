@@ -4,29 +4,30 @@ COMPREHENSIVE ANALYSIS REPORT FOR ELONGASES.FASTA
 ================================================================================
 
 OVERALL STATISTICS:
-  Total genomes analyzed: 8
-  Total queries: 16
-  Total hits found: 16
+  Total genomes analyzed: 9
+  Total queries: 18
+  Total hits found: 18
   Hit rate: 100.0%
 
 SIGNIFICANCE BREAKDOWN:
-  HIGH (likely orthologs): 6
-  MEDIUM (likely homologs): 2
-  LOW (possible homologs): 8
+  HIGH (likely orthologs): 8
+  MEDIUM (likely homologs): 9
+  LOW (possible homologs): 1
   VERY LOW: 0
   NOT FOUND: 0
 
 PER-GENOME BREAKDOWN:
 Genome               Queries    Hits     High     Med      Low     
 ----------------------------------------------------------------------
+Platy1217_1          2          2        0        2        0       
 Ochro3194_1          2          2        2        0        0       
-Chrpa1_1             2          2        0        0        2       
+Chrpa1_1             2          2        0        2        0       
 Gepoce1              2          2        2        0        0       
-IsochDm2_1           2          2        1        1        0       
-Chrsp_1              2          2        0        0        2       
-Phaglo1              2          2        0        0        2       
-Pparv12B1_1_1        2          2        0        0        2       
-Isogal1              2          2        1        1        0       
+IsochDm2_1           2          2        2        0        0       
+Chrsp_1              2          2        0        2        0       
+Phaglo1              2          2        0        2        0       
+Pparv12B1_1_1        2          2        0        1        1       
+Isogal1              2          2        2        0        0       
 
 TOP HITS ANALYSIS:
 
