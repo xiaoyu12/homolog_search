@@ -37,15 +37,15 @@ This project analyzes the evolutionary relationships and functional conservation
 
 | Rank | Genome | Avg Identity | Hit Rate | Proteins Analyzed |
 |------|--------|--------------|----------|-------------------|
-| 1 | **Ochro3194_1** | 89.2% | 100.0% | 5 |
-| 2 | **Gepoce1** | 84.7% | 100.0% | 5 |
-| 3 | **Isogal1** | 56.6% | 100.0% | 5 |
-| 4 | **IsochDm2_1** | 55.4% | 100.0% | 5 |
-| 5 | **Phaglo1** | 38.0% | 77.3% | 5 |
-| 6 | **Pparv12B1_1_1** | 35.6% | 86.4% | 5 |
-| 7 | **Chrsp_1** | 40.1% | 72.7% | 5 |
-| 8 | **Chrpa1_1** | 34.8% | 72.7% | 5 |
-| 9 | **Platy1217_1** | TBD | TBD | TBD |
+| 1 | **Ochro3194_1** | 87.9% | 100.0% | 6 |
+| 2 | **Gepoce1** | 83.1% | 100.0% | 6 |
+| 3 | **Isogal1** | 56.1% | 100.0% | 6 |
+| 4 | **IsochDm2_1** | 55.1% | 100.0% | 6 |
+| 5 | **Phaglo1** | 37.1% | 74.1% | 6 |
+| 6 | **Pparv12B1_1_1** | 33.6% | 81.5% | 6 |
+| 7 | **Chrsp_1** | 37.8% | 70.4% | 6 |
+| 8 | **Chrpa1_1** | 33.5% | 70.4% | 6 |
+| 9 | **Platy1217_1** | 35.9% | 81.5 | 6 |
 
 ## 🎨 **Visualization Results**
 
