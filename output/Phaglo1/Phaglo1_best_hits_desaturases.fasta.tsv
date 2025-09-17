@@ -4,3 +4,4 @@ query_id,subject_id,pident,length,mismatch,gapopen,qstart,qend,sstart,send,evalu
 457922,17760,27.575,301,172,10,72,332,66,360,1.03e-16,80.1,332,381,79.0,LOW (possible homolog)
 438862,,,,,,,,,,,,570,,0,NOT FOUND
 457951,,,,,,,,,,,,371,,0,NOT FOUND
+454486,5344,27.703,296,127,10,152,382,101,374,9.61e-11,62.8,397,389,58.0,LOW (possible homolog)

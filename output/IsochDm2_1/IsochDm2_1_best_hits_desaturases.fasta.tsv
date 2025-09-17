@@ -4,3 +4,4 @@ query_id,subject_id,pident,length,mismatch,gapopen,qstart,qend,sstart,send,evalu
 457922,1365933,60.991,323,86,5,45,332,1,318,1.31e-138,397.0,332,382,87.0,HIGH (likely ortholog)
 438862,1400433,57.117,562,219,9,9,560,18,567,0.0,611.0,570,567,97.0,HIGH (likely ortholog)
 457951,1319619,36.29,372,211,8,9,363,40,402,5.74e-53,180.0,371,413,96.0,MEDIUM (likely homolog)
+454486,1171669,43.405,417,158,8,30,375,25,434,9.31e-90,278.0,397,471,87.0,MEDIUM (likely homolog)
