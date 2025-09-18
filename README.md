@@ -8,44 +8,44 @@ This project analyzes the evolutionary relationships and functional conservation
 
 - **6 Protein Families**: elongases, desaturases, hydroxylases, polyketide synthases, long PKS, and decarboxylases
 - **9 Genomes**: Chrsp_1, IsochDm2_1, Isogal1, Gepoce1, Ochro3194_1, Pparv12B1_1_1, Phaglo1, Chrpa1_1, and Platy1217_1
-- **Comprehensive Analysis**: 216 total queries with detailed significance scoring
+- **Comprehensive Analysis**: 261 total queries with detailed significance scoring
 - **Advanced Visualizations**: 2D grid bubble plots and heatmaps for each protein family
 
 ## 📊 **Analysis Results Summary**
 
 ### **Overall Statistics**
 - **Total Protein Families**: 6
-- **Total Queries**: 216
-- **Total Hits Found**: 188
-- **Overall Hit Rate**: 87.0%
-- **Total HIGH Orthologs**: 67
-- **Total MEDIUM Homologs**: 19
-- **Total LOW Possible**: 102
+- **Total Queries**: 261
+- **Total Hits Found**: 228
+- **Overall Hit Rate**: 87.4%
+- **Total HIGH Orthologs**: 99
+- **Total MEDIUM Homologs**: 82
+- **Total LOW Possible**: 47
 
 ### **Protein Family Performance**
 
 | Protein Family | Queries | Hit Rate | HIGH Orthologs | MEDIUM Homologs | LOW Possible |
 |----------------|---------|----------|----------------|-----------------|--------------|
-| **pks_long** | 88 | 100.0% | 24 | 11 | 53 |
-| **elongases** | 16 | 100.0% | 6 | 2 | 8 |
-| **desaturases** | 40 | 80.0% | 14 | 1 | 17 |
-| **polyketide_synthases** | 16 | 81.2% | 2 | 4 | 7 |
-| **hydroxylases** | 48 | 70.8% | 19 | 1 | 14 |
-| **decarboxylases** | 8 | 62.5% | 2 | 0 | 3 |
+| **pks_long** | 99 | 100.0% | 33 | 47 | 19 |
+| **elongases** | 36 | 100.0% | 25 | 10 | 1 |
+| **desaturases** | 45 | 82.2% | 16 | 6 | 15 |
+| **polyketide_synthases** | 18 | 83.3% | 3 | 10 | 2 |
+| **hydroxylases** | 54 | 66.7% | 20 | 7 | 9 |
+| **decarboxylases** | 9 | 55.6% | 2 | 2 | 1 |
 
 ### **Genome Performance Ranking**
 
 | Rank | Genome | Avg Identity | Hit Rate | Proteins Analyzed |
 |------|--------|--------------|----------|-------------------|
 | 1 | **Ochro3194_1** | 87.9% | 100.0% | 6 |
-| 2 | **Gepoce1** | 83.1% | 100.0% | 6 |
-| 3 | **Isogal1** | 56.1% | 100.0% | 6 |
-| 4 | **IsochDm2_1** | 55.1% | 100.0% | 6 |
-| 5 | **Phaglo1** | 37.1% | 74.1% | 6 |
-| 6 | **Pparv12B1_1_1** | 33.6% | 81.5% | 6 |
-| 7 | **Chrsp_1** | 37.8% | 70.4% | 6 |
-| 8 | **Chrpa1_1** | 33.5% | 70.4% | 6 |
-| 9 | **Platy1217_1** | 35.9% | 81.5 | 6 |
+| 2 | **Gepoce1** | 83.0% | 100.0% | 6 |
+| 3 | **Isogal1** | 56.2% | 100.0% | 6 |
+| 4 | **IsochDm2_1** | 55.4% | 100.0% | 6 |
+| 5 | **Chrsp_1** | 39.9% | 72.4% | 6 |
+| 6 | **Phaglo1** | 39.2% | 75.9% | 6 |
+| 7 | **Platy1217_1** | 37.0% | 82.8% | 6 |
+| 8 | **Pparv12B1_1_1** | 35.9% | 82.8% | 6 |
+| 9 | **Chrpa1_1** | 35.6% | 72.4% | 6 |
 
 ## 🎨 **Visualization Results**
 
@@ -55,14 +55,15 @@ This project analyzes the evolutionary relationships and functional conservation
 
 **Key Findings:**
 - **100% hit rate** across all 9 genomes
-- **6 HIGH orthologs** identified
-- **2 queries** analyzed (351492, 414244)
+- **25 HIGH orthologs** identified alongside 10 MEDIUM homologs (plus 1 LOW outlier)
+- **Four elongase seeds** spanning all genomes (36 query-genome combinations) capture the expanded repertoire
 - **Pattern**: Essential function, highly conserved across all algal lineages
 
 **Top Matches:**
 - Query 414244 → Gepoce1: 100.0% identity (E-value: 7.76e-99)
 - Query 351492 → Ochro3194_1: 99.6% identity (E-value: 0.00e+00)
-- Query 351492 → Gepoce1: 99.6% identity (E-value: 0.00e+00)
+- Query 433098 → Ochro3194_1: 99.2% identity (E-value: 0.00e+00)
+- Query 70214 → Gepoce1: 99.7% identity (E-value: 0.00e+00)
 
 ### **2. Long Polyketide Synthases - Most Widespread Distribution**
 
@@ -70,8 +71,8 @@ This project analyzes the evolutionary relationships and functional conservation
 
 **Key Findings:**
 - **100% hit rate** across all 9 genomes
-- **24 HIGH orthologs** identified (highest count)
-- **11 queries** analyzed
+- **33 HIGH orthologs** identified (highest count) with 47 MEDIUM homologs
+- **99 queries** analyzed, covering broad long PKS diversity
 - **Pattern**: Most widespread protein family, excellent conservation
 
 **Top Matches:**
@@ -84,9 +85,9 @@ This project analyzes the evolutionary relationships and functional conservation
 ![Desaturases Bubble Plot](visualizations/desaturases_bubble_plot.png)
 
 **Key Findings:**
-- **80.0% hit rate** across all 9 genomes
-- **14 HIGH orthologs** identified
-- **5 queries** analyzed (438862, 468588, 457951, 457922, 438862)
+- **82.2% hit rate** across all 9 genomes
+- **16 HIGH orthologs** identified alongside 6 MEDIUM homologs
+- **45 queries** analyzed; top-performing queries include 438862 and 468588
 - **Pattern**: Variable conservation, some highly conserved, others more variable
 
 **Top Matches:**
@@ -99,9 +100,9 @@ This project analyzes the evolutionary relationships and functional conservation
 ![Hydroxylases Bubble Plot](visualizations/hydroxylases_bubble_plot.png)
 
 **Key Findings:**
-- **70.8% hit rate** across all 9 genomes
-- **19 HIGH orthologs** identified
-- **6 queries** analyzed
+- **66.7% hit rate** across all 9 genomes
+- **20 HIGH orthologs** identified with 7 MEDIUM homologs
+- **54 queries** analyzed, reflecting expanded hydroxylase coverage
 - **Pattern**: Good conservation, many high-quality matches, some gaps
 
 **Top Matches:**
@@ -114,9 +115,9 @@ This project analyzes the evolutionary relationships and functional conservation
 ![Polyketide Synthases Bubble Plot](visualizations/polyketide_synthases_bubble_plot.png)
 
 **Key Findings:**
-- **81.2% hit rate** across all 9 genomes
-- **2 HIGH orthologs** identified
-- **2 queries** analyzed (455269, 452783)
+- **83.3% hit rate** across all 9 genomes
+- **3 HIGH orthologs** identified alongside 10 MEDIUM homologs
+- **18 queries** analyzed; flagship queries 452783 and 455269 remain top performers
 - **Pattern**: Moderate conservation, some high-quality matches
 
 **Top Matches:**
@@ -129,9 +130,9 @@ This project analyzes the evolutionary relationships and functional conservation
 ![Decarboxylases Bubble Plot](visualizations/decarboxylases_bubble_plot.png)
 
 **Key Findings:**
-- **62.5% hit rate** across all 9 genomes
-- **2 HIGH orthologs** identified
-- **1 query** analyzed (97873)
+- **55.6% hit rate** across all 9 genomes
+- **2 HIGH orthologs** identified with 2 MEDIUM homologs
+- **9 queries** analyzed, highlighting limited recovery outside core taxa
 - **Pattern**: Lower conservation, limited distribution, some high-quality matches
 
 **Top Matches:**
@@ -229,8 +230,8 @@ This analysis provides valuable insights for:
 ## 📊 **Data Quality Metrics**
 
 - **Coverage**: 6 protein families × 9 genomes = 54 total analyses
-- **Success Rate**: 87.0% overall hit rate across all analyses
-- **Ortholog Detection**: 67 high-confidence orthologs identified
+- **Success Rate**: 87.4% overall hit rate across all analyses
+- **Ortholog Detection**: 99 high-confidence orthologs identified
 - **Genome Representation**: Complete coverage of all available genomes
 - **Statistical Rigor**: E-value thresholds and identity cutoffs applied consistently
 
@@ -252,8 +253,7 @@ This analysis framework can be extended to:
 
 ---
 
-**Last Updated**: December 2024  
+**Last Updated**: September 2025  
 **Analysis Version**: 1.0  
 **Total Analyses**: 54 protein-family × genome combinations  
 **Visualizations**: 12 high-resolution plots (6 bubble plots + 6 heatmaps)
-
