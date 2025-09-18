@@ -1,3 +1,5 @@
 query_id,subject_id,pident,length,mismatch,gapopen,qstart,qend,sstart,send,evalue,bitscore,qlen,slen,qcovs,significance
 351492,76576,83.846,260,42,0,1,260,1,260,1.15e-170,471.0,277,274,94.0,VERY HIGH (likely ortholog)
 414244,76576,53.247,154,66,3,1,148,107,260,1.28e-49,160.0,162,274,91.0,HIGH (likely ortholog)
+433098,86445,80.952,105,20,0,155,259,92,196,1.6e-60,189.0,267,200,70.0,HIGH (likely ortholog)
+70214,76306,58.333,276,107,4,1,269,61,335,7.55e-107,315.0,318,359,85.0,HIGH (likely ortholog)

@@ -1,3 +1,5 @@
 query_id,subject_id,pident,length,mismatch,gapopen,qstart,qend,sstart,send,evalue,bitscore,qlen,slen,qcovs,significance
 351492,5504,35.111,225,111,8,60,274,65,264,9.02e-32,119.0,277,295,78.0,MEDIUM (likely homolog)
 414244,5504,36.029,136,82,3,1,132,109,243,3.92e-22,89.7,162,295,81.0,MEDIUM (likely homolog)
+433098,10876,67.059,255,81,2,15,266,24,278,1.19e-123,353.0,267,278,94.0,HIGH (likely ortholog)
+70214,25045,55.439,285,116,4,1,277,68,349,8.53e-95,286.0,318,406,87.0,HIGH (likely ortholog)
